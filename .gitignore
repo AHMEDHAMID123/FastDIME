@@ -1,0 +1,8 @@
+logs/
+*__pycache__*
+notebooks
+.vscode
+*.pt
+*.pth
+.env
+*.sif
