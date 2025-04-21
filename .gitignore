@@ -6,3 +6,5 @@ notebooks
 *.pth
 .env
 *.sif
+*.ipynb
+ddpm-butterflies-128

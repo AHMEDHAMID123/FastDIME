@@ -1,0 +1,33 @@
+
+    num_epochs: 50
+    num_warmup_steps: 500
+    save_images_epochs: 10
+    save_model_epochs: 20
+    batch_size: 128
+    learning_rate: 0.0001
+    eta_min:  0.000001
+    weight_decay: 0.0001
+    block_out_channels: 
+    - 128
+    - 128
+    - 256
+    - 256
+    - 512
+    - 512
+    num_layers_per_block: 1
+    gradient_accumulation_steps: 1
+    mixed_precision: fp16
+    log_dir: "./logs"
+    log_wuth: tensorboard
+    project_name: unet_training
+    seed: 42
+    channels_in: 3
+    channels_out: 3
+    time_emb_dim: 128
+    d_model: 128
+    output_dir: "./output"
+    beta_start: 0.0001
+    beta_end: 0.02
+    num_training_steps: 1000
+    beta_schedule:linear
+    data_config: /home/a.zeid/experiments/FastDIME/data/data_config.yaml

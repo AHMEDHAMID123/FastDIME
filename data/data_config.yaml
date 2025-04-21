@@ -1,0 +1,5 @@
+
+
+root_dir: /data/peal/datasets/celeba
+data_dir: /data/peal/datasets/celeba/imgs
+attribute_dir: /data/peal/datasets/celeba/data.csv
